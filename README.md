@@ -1,6 +1,8 @@
 # mazecpc
 Maze CPC is a maze generator in 11 bytes for Amstrad CPC series 8-bit computers.
 
+![screen shot](https://raw.githubusercontent.com/ssg/mazecpc/master/screenshot.png)
+
 # history
 There is a book called "[10 PRINT CHR$ (205.5 + RND (1)); : GOTO 10](http://10print.org/)". Yes that's the  title. It's about a small code piece in BASIC language that generates a maze. An interesting read for programmers. It delves into attempts to create it in assembly as small as possible, which [seems to have become a trend](http://csdb.dk/release/?id=113300) in Commodore 64 demoscene.
 
