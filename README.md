@@ -1,4 +1,4 @@
-# mazecpc
+# mazecpc 1.1
 Maze CPC is a maze generator in 14 bytes for Amstrad CPC series 8-bit computers.
 
 ![screen shot](https://raw.githubusercontent.com/ssg/mazecpc/master/screenshot.png)
