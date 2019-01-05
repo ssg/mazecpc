@@ -8,7 +8,7 @@ There is a book called "[10 PRINT CHR$ (205.5 + RND (1)); : GOTO 10](http://10pr
 
 Recently I saw [a blog post from Trixter](http://trixter.oldskool.org/2012/12/17/maze-generation-in-thirteen-bytes/) who tried to port it to PC. It eventually got down to 10 bytes.
 
-Tonight I wanted to give it a shot on Amstrad CPC and here it is, 11 bytes maze generator, created in couple of hours.
+Tonight I wanted to give it a shot on Amstrad CPC and here it is, <s>11 bytes</s>14-bytes maze generator, created in couple of hours.
 
 # technical notes
 I found it very hard to produce a series of "random bits" on a Z80 CPU. There is R register which increases every cycle but naturally deterministic in loops. To keep the code short, however, I relied on it and interrupts to introduce a slight entropy. I'm sure there is room for improvement. Update Dec 29th, 2018: I made the random generator much better by sacrificing 3 more bytes. It's a 14-byte maze generator now.
