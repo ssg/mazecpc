@@ -4,7 +4,7 @@
 
 org	&4000
 write "maze464.bin"
-write direct "maze464.bin"
+;write direct "maze464.bin"
 
 CHAR        equ &CC
 TXT_WR_CHAR equ &BB5D
