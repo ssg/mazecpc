@@ -1,0 +1,6 @@
+root = true
+
+[*.asm]
+charset = utf-8
+indent_style = tab   ; winape honors these
+indent_size = 4
