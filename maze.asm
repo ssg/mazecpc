@@ -14,8 +14,8 @@ loop:
 	; we ignore that and use the destroyed A value because somehow
 	; it also varies quite randomly, saving us 2 bytes in the end.
 	; This trick causes RND to output junk pixels to the scroll 
-	; position due to HL value destroyed by TXT_WR_CHAR, but it 
-	; gets painted over anyway.
+	; position due to HL value getting destroyed by TXT_WR_CHAR, 
+	; but it gets painted over anyway.
 	call  REAL_RND
 	and   1
 	or    CHAR
