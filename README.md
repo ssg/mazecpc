@@ -19,6 +19,6 @@ I found it very hard to produce a series of "random bits" on a Z80 CPU. There is
 _Update Dec 29th, 2018: I made the random generator much better by sacrificing 3 more bytes. It's a 14-byte maze generator now._
 
 _Update May 2nd, 2023: I resorted to using firmware call for RND to get the random number,
-saving another 2 bytes. But, the code doesn't run on CPC464 now due to missing firmware call. The 14-byte CPC464 version still exists in `maze464.asm`_
+saving another 2 bytes. But, the code doesn't run on CPC464 now due to missing firmware call. The 14-byte CPC464 version still exists in [`maze464.asm`](https://github.com/ssg/mazecpc/blob/main/maze464.asm)._
 
 SSG / arteffect, March 24th 2015
