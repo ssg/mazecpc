@@ -2,7 +2,7 @@
 
 Maze CPC is a maze generator in 12 bytes for Amstrad CPC664/6128 8-bit computers.
 
-![screen shot](https://raw.githubusercontent.com/ssg/mazecpc/master/screenshot.png)
+<img width="640" alt="screen shot" src="https://github.com/ssg/mazecpc/assets/241217/f9e88595-08b2-422b-9a97-06e546f54b31">
 
 # history
 
